@@ -1,11 +1,9 @@
-server:
-  port: 8099
 spring:
   application:
     name: yanki-service
   cloud:
     config:
-      uri: http://config-server:8090
+      uri: http://localhost:8090
       username: yloayza
       password: yloayza2022
   data:
